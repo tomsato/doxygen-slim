@@ -1,0 +1,26 @@
+var NAVTREEINDEX0 =
+{
+"SampleApp_8php.html":[2,0,0,0,0],
+"SampleModel_8php.html":[2,0,0,1,0],
+"annotated.html":[1,0],
+"classMyapp_1_1Controller_1_1SampleApp.html":[1,0,0,0,0],
+"classMyapp_1_1Controller_1_1SampleApp.html#a1db238a741ab2f4cd5aa82d4f48f90ef":[1,0,0,0,0,0],
+"classMyapp_1_1Model_1_1SampleModel.html":[1,0,0,1,0],
+"classMyapp_1_1Model_1_1SampleModel.html#a94c71c168d40d3fd90d16bb6a4fa8827":[1,0,0,1,0,0],
+"classes.html":[1,1],
+"dir_32e188284d239da8bb14ec1dabb0c35f.html":[2,0,0,1],
+"dir_68267d1309a1af8e8297ef4c3efbcdba.html":[2,0,0],
+"dir_b3b6f0ba51cfe0acc4894d1f872bef0a.html":[2,0,0,0],
+"files.html":[2,0],
+"functions.html":[1,2,0],
+"functions_func.html":[1,2,1],
+"index.html":[],
+"namespaceMyapp.html":[0,0,0],
+"namespaceMyapp.html":[1,0,0],
+"namespaceMyapp_1_1Controller.html":[1,0,0,0],
+"namespaceMyapp_1_1Controller.html":[0,0,0,0],
+"namespaceMyapp_1_1Model.html":[0,0,0,1],
+"namespaceMyapp_1_1Model.html":[1,0,0,1],
+"namespaces.html":[0,0],
+"pages.html":[]
+};
