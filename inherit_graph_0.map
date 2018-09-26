@@ -1,0 +1,4 @@
+<map id="クラス階層図" name="クラス階層図">
+<area shape="rect" id="node1" href="$classMyapp_1_1Controller_1_1BaseController.html" title="コントローラーのスーパークラス " alt="" coords="5,5,220,31"/>
+<area shape="rect" id="node2" href="$classMyapp_1_1Controller_1_1SampleApp.html" title="サンプルページを表示するためのコントローラークラス(クラスの簡単な説明を記述する) " alt="" coords="268,5,464,31"/>
+</map>

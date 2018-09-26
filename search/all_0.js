@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['getstr',['getStr',['../classMyapp_1_1Model_1_1SampleModel.html#a94c71c168d40d3fd90d16bb6a4fa8827',1,'Myapp::Model::SampleModel']]]
+  ['basecontroller',['BaseController',['../classMyapp_1_1Controller_1_1BaseController.html',1,'Myapp::Controller']]],
+  ['basecontroller_2ephp',['BaseController.php',['../BaseController_8php.html',1,'']]]
 ];

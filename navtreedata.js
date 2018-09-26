@@ -30,6 +30,7 @@ var NAVTREE =
     [ "クラス", "annotated.html", [
       [ "クラス一覧", "annotated.html", "annotated_dup" ],
       [ "クラス索引", "classes.html", null ],
+      [ "クラス階層", "hierarchy.html", "hierarchy" ],
       [ "クラスメンバ", "functions.html", [
         [ "全て", "functions.html", null ],
         [ "関数", "functions_func.html", null ]
@@ -43,7 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"SampleApp_8php.html"
+"BaseController_8php.html"
 ];
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';
