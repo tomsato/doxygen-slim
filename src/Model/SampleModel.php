@@ -12,7 +12,7 @@ class SampleModel
      * @return 適当な文字列(戻り値の説明)
      * @detail サンプルなので文字列を返すだけにしている(関数の詳細な説明を記述する)
      */
-    public function getStr()
+    static public function getStr()
     {
         return "testtttt";
     }

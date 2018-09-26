@@ -17,7 +17,7 @@ use Psr\Http\Message\ServerRequestInterface as Request;
  * @brief サンプルページを表示するためのコントローラークラス(クラスの簡単な説明を記述する)
  * @details 現在はトップページ(GET: /)を表示するための関数だけ持っている(クラスの詳細な説明を記述する)
  */
-class SampleApp
+class SampleApp extends BaseController
 {
     /**
      * @brief トップページ(GET: /)を表示するための関数(関数の簡単な説明を記述する)
@@ -29,13 +29,13 @@ class SampleApp
     public function index(Request $request, Response $response)
     {
         //! 変数の説明①
-        $model = new Myapp\Model\SampleModel();
+        $str = \Myapp\Model\SampleModel::getStr();
 
         /**
          * 変数の説明②
          */
         $request = [
-            'hoge' => $model->getStr()
+            'hoge' => $str
         ];
 
         //! 変数の説明③
