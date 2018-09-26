@@ -27,25 +27,25 @@ class SampleApp
      * @return 戻り値の説明
      * @detail モデルクラスから文字列を受けとってレスポンスを返す(関数の詳細な説明を記述する)
      */
-	public function index(Request $request, Response $response)
+    public function index(Request $request, Response $response)
     {
         //! 変数の説明①
-		$model = new SampleModel();
+        $model = new SampleModel();
 
         /**
          * 変数の説明②
          */
-		$request = [
-			'hoge' => $model->getStr()
+        $request = [
+            'hoge' => $model->getStr()
         ];
 
         //! 変数の説明③
-		$view = new Twig(__DIR__ . '/../View', [
-				'cache' => false,
-			]
-		);
+        $view = new Twig(__DIR__ . '/../View', [
+                'cache' => false,
+            ]
+        );
 
-		return $view->render($response, 'test.twig', $request);
-	}
+        return $view->render($response, 'test.twig', $request);
+    }
 }
 
