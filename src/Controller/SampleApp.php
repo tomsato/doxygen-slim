@@ -1,7 +1,6 @@
 <?php
 namespace Myapp\Controller;
 
-use Myapp\Model\SampleModel;
 use Slim\Views\Twig;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -30,7 +29,7 @@ class SampleApp
     public function index(Request $request, Response $response)
     {
         //! 変数の説明①
-        $model = new SampleModel();
+        $model = new Myapp\Model\SampleModel();
 
         /**
          * 変数の説明②
